@@ -1,0 +1,59 @@
+section-x@60:~/25B80005/23-Oct-2025$ bin/move*
+Enter size of array: 5
+Enter Value of Array A[0]:1
+Enter Value of Array A[1]:0
+Enter Value of Array A[2]:0
+Enter Value of Array A[3]:2
+Enter Value of Array A[4]:0
+Array: 
+[1, 0, 2, 0, 0]
+section-x@60:~/25B80005/23-Oct-2025$ gcc -o bin/movezeros.out movezeros.c
+section-x@60:~/25B80005/23-Oct-2025$ bin/move*
+Enter size of array: 5
+Enter Value of Array A[0]:1
+Enter Value of Array A[1]:0
+Enter Value of Array A[2]:0
+Enter Value of Array A[3]:2
+Enter Value of Array A[4]:0
+Array: 
+[1, 2, 0, 0, 0]
+section-x@60:~/25B80005/23-Oct-2025$ bin/move*
+Enter size of array: 5
+Enter Value of Array A[0]:0
+Enter Value of Array A[1]:0
+Enter Value of Array A[2]:0
+Enter Value of Array A[3]:0
+Enter Value of Array A[4]:0
+Array: 
+[0, 0, 0, 0, 0]
+section-x@60:~/25B80005/23-Oct-2025$ bin/move*
+Enter size of array: 0
+Array: 
+[]
+section-x@60:~/25B80005/23-Oct-2025$ bin/move*
+Enter size of array: 1
+Enter Value of Array A[0]:7
+Array: 
+[7]
+section-x@60:~/25B80005/23-Oct-2025$ bin/move*
+Enter size of array: 1
+Enter Value of Array A[0]:0
+Array: 
+[0]
+section-x@60:~/25B80005/23-Oct-2025$ bin/move*
+Enter size of array: 2
+Enter Value of Array A[0]:1
+Enter Value of Array A[1]:0
+Array: 
+[1, 0]
+section-x@60:~/25B80005/23-Oct-2025$ bin/move*
+Enter size of array: 7
+Enter Value of Array A[0]:11
+Enter Value of Array A[1]:2
+Enter Value of Array A[2]:3
+Enter Value of Array A[3]:4
+Enter Value of Array A[4]:5
+Enter Value of Array A[5]:6
+Enter Value of Array A[6]:7
+Array: 
+[11, 2, 3, 4, 5, 6, 7]

@@ -1,0 +1,158 @@
+section-x@60:~/25B80005/23-Oct-2025$ gcc -o bin/deldup.out deldup.c
+section-x@60:~/25B80005/23-Oct-2025$ bin/deldup.out
+Enter size of array: 5
+Enter Value of Array A[0]:1
+Enter Value of Array A[1]:12
+Enter Value of Array A[2]:1
+Enter Value of Array A[3]:3
+Enter Value of Array A[4]:5
+DUPLICATE ELEMENT 1 AT 2
+SWAPPING 2 3
+SWAPPING 3 4
+Total Number of Elements: 5
+Number of Unique Elements: 4
+Unique Elements Array: 
+[1, 12, 3, 5]
+section-x@60:~/25B80005/23-Oct-2025$ bin/deldup.out
+Enter size of array: 0
+Total Number of Elements: 0
+Number of Unique Elements: 0
+Unique Elements Array: 
+[0]
+section-x@60:~/25B80005/23-Oct-2025$ gcc -o bin/deldup.out deldup.c
+section-x@60:~/25B80005/23-Oct-2025$ bin/deldup.out
+Enter size of array: 0
+Total Number of Elements: 0
+Number of Unique Elements: 0
+Unique Elements Array: 
+[]
+section-x@60:~/25B80005/23-Oct-2025$ bin/deldup.out
+Enter size of array: 1
+Enter Value of Array A[0]:5
+Total Number of Elements: 1
+Number of Unique Elements: 1
+Unique Elements Array: 
+[5]
+section-x@60:~/25B80005/23-Oct-2025$ bin/deldup.out
+Enter size of array: 5
+Enter Value of Array A[0]:1
+Enter Value of Array A[1]:2
+Enter Value of Array A[2]:3
+Enter Value of Array A[3]:4
+Enter Value of Array A[4]:5
+Total Number of Elements: 5
+Number of Unique Elements: 5
+Unique Elements Array: 
+[1, 2, 3, 4, 5]
+section-x@60:~/25B80005/23-Oct-2025$ bin/deldup.out
+Enter size of array: 5
+Enter Value of Array A[0]:1
+Enter Value of Array A[1]:1
+Enter Value of Array A[2]:1
+Enter Value of Array A[3]:1
+Enter Value of Array A[4]:1
+DUPLICATE ELEMENT 1 AT 1
+SWAPPING 1 2
+SWAPPING 2 3
+SWAPPING 3 4
+DUPLICATE ELEMENT 1 AT 1
+SWAPPING 1 2
+SWAPPING 2 3
+DUPLICATE ELEMENT 1 AT 1
+SWAPPING 1 2
+DUPLICATE ELEMENT 1 AT 1
+Total Number of Elements: 5
+Number of Unique Elements: 1
+Unique Elements Array: 
+[1]
+section-x@60:~/25B80005/23-Oct-2025$ bin/deldup.out
+Enter size of array: 6
+Enter Value of Array A[0]:1
+Enter Value of Array A[1]:2
+Enter Value of Array A[2]:3
+Enter Value of Array A[3]:1
+Enter Value of Array A[4]:2
+Enter Value of Array A[5]:3
+DUPLICATE ELEMENT 1 AT 3
+SWAPPING 3 4
+SWAPPING 4 5
+DUPLICATE ELEMENT 2 AT 3
+SWAPPING 3 4
+DUPLICATE ELEMENT 3 AT 3
+Total Number of Elements: 6
+Number of Unique Elements: 3
+Unique Elements Array: 
+[1, 2, 3]
+section-x@60:~/25B80005/23-Oct-2025$ bin/deldup.out
+Enter size of array: 10
+Enter Value of Array A[0]:1
+Enter Value of Array A[1]:7
+Enter Value of Array A[2]:4
+Enter Value of Array A[3]:7
+Enter Value of Array A[4]:12
+Enter Value of Array A[5]:6
+Enter Value of Array A[6]:3
+Enter Value of Array A[7]:4
+Enter Value of Array A[8]:8
+Enter Value of Array A[9]:32
+DUPLICATE ELEMENT 7 AT 3
+SWAPPING 3 4
+SWAPPING 4 5
+SWAPPING 5 6
+SWAPPING 6 7
+SWAPPING 7 8
+SWAPPING 8 9
+DUPLICATE ELEMENT 4 AT 6
+SWAPPING 6 7
+SWAPPING 7 8
+Total Number of Elements: 10
+Number of Unique Elements: 8
+Unique Elements Array: 
+[1, 7, 4, 12, 6, 3, 8, 32]
+section-x@60:~/25B80005/23-Oct-2025$ bin/deldup.out
+Enter size of array: 7
+Enter Value of Array A[0]:1
+Enter Value of Array A[1]:2
+Enter Value of Array A[2]:3
+Enter Value of Array A[3]:4
+Enter Value of Array A[4]:4
+Enter Value of Array A[5]:4
+Enter Value of Array A[6]:5
+DUPLICATE ELEMENT 4 AT 4
+SWAPPING 4 5
+SWAPPING 5 6
+DUPLICATE ELEMENT 4 AT 4
+SWAPPING 4 5
+Total Number of Elements: 7
+Number of Unique Elements: 5
+Unique Elements Array: 
+[1, 2, 3, 4, 5]
+section-x@60:~/25B80005/23-Oct-2025$ bin/deldup.out
+Enter size of array: 4
+Enter Value of Array A[0]:1
+Enter Value of Array A[1]:1
+Enter Value of Array A[2]:1
+Enter Value of Array A[3]:2
+DUPLICATE ELEMENT 1 AT 1
+SWAPPING 1 2
+SWAPPING 2 3
+DUPLICATE ELEMENT 1 AT 1
+SWAPPING 1 2
+Total Number of Elements: 4
+Number of Unique Elements: 2
+Unique Elements Array: 
+[1, 2]
+section-x@60:~/25B80005/23-Oct-2025$ bin/deldup.out
+Enter size of array: 4
+Enter Value of Array A[0]:1
+Enter Value of Array A[1]:2
+Enter Value of Array A[2]:2
+Enter Value of Array A[3]:2
+DUPLICATE ELEMENT 2 AT 2
+SWAPPING 2 3
+DUPLICATE ELEMENT 2 AT 2
+Total Number of Elements: 4
+Number of Unique Elements: 2
+Unique Elements Array: 
+[1, 2]
+section-x@60:~/25B80005/23-Oct-2025$ 

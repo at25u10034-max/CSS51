@@ -17,6 +17,9 @@ int main() {
 		if(data[i] == needle)
 			count++;
 
-	printf("Integer (%d) occurs %hd times in given data.\n", needle, count);
+	if (count)
+		printf("Integer (%d) occurs %hd times in given data.\n", needle, count);
+	else 
+		printf("No elements found matching (%d)\n", needle);
 	return 0;
 }
