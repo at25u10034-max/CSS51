@@ -10,7 +10,7 @@ int main() {
 		printf("Enter number to store in data[%hd]: ", i);
 		scanf("%d", &data[i]);
 	}
-	printf("Enter number to search for (needle): ");
+	printf("Enter number to search for: ");
 	scanf("%d", &needle);
 	
 	for (short i = 0; i < 20; i++)

@@ -16,6 +16,8 @@ int main() {
 		}
 	}
 
+	printf("\n");
+
 	for (int i = 0; i < N; i++) {
 		for (int j = 0; j < M; j++) {
 			printf("Enter Value of Matrix B[%d][%d]:", i, j);
@@ -49,9 +51,9 @@ int main() {
 	}
 
 	printf("[C]': \n");
-	for (int i = 0; i < N; i++) {
+	for (int i = 0; i < M; i++) {
 		printf("|\t");
-		for (int j = 0; j < M; j++) {
+		for (int j = 0; j < N; j++) {
 			printf("%d\t", matrixT[i][j]);
 		}
 		printf("|\n");

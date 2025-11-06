@@ -1,28 +1,17 @@
 #include <stdio.h>
-#include <stdlib.h>
-
-#define FOREVER while(1)
-
-void iflush(void) {
-	char _;
-	while ((_ = getchar()) != '\n' && _ != EOF);
-}
 
 int main(void) {
-	int n, pi = 1;
+	int n; 
+	long pi = 1;
 
-	FOREVER {
-		fputs("Enter a number (n): ", stdout);
-		scanf("%d", &n);
-		iflush();
-		if (n < 0) {
-			fprintf(stderr, "INVALID NUMBER: (%d)\n\n", n);
-			continue;
-		}
-		
-		for (register int i = 1; i <= n; i++) pi *= i; 
-		printf("Factorial (%d) is: %d\n\n", n, pi);
-		pi = 1;
+	printf("Enter a number (n): ");
+	scanf("%d", &n);
+	if (n < 0) {
+		printf("INVALID NUMBER: (%d)\n\n", n);
+		return 1;
 	}
+	
+	for (int i = 1; i <= n; i++) pi *= i; 
+	printf("Factorial (%d) is: %ld\n\n", n, pi);
 	return 0;
 }
