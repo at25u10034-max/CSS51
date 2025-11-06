@@ -1,0 +1,30 @@
+Enter number of rows of Matrix A: 2
+Enter number of columns of A (same as rows of B): 3
+Enter number of columns of B: 2
+Enter value of First Matrix[0][0]: 1
+Enter value of First Matrix[0][1]: 2
+Enter value of First Matrix[0][2]: 3
+Enter value of First Matrix[1][0]: 4
+Enter value of First Matrix[1][1]: 5
+Enter value of First Matrix[1][2]: 6
+Enter value of Second Matrix[0][0]: 1
+Enter value of Second Matrix[0][1]: 2
+Enter value of Second Matrix[1][0]: 2
+Enter value of Second Matrix[1][1]: 1
+Enter value of Second Matrix[2][0]: 1
+Enter value of Second Matrix[2][1]: 2
+Given First Matrix is: 
+
+|     1     2     3 |
+|     4     5     6 |
+
+Given Second Matrix is: 
+
+|     1     2 |
+|     2     1 |
+|     1     2 |
+
+A*B Matrix is: 
+
+|     8    10 |
+|    20    25 |

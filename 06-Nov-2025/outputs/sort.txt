@@ -1,0 +1,23 @@
+Enter number of rows: 3
+Enter number of columns: 3
+Enter value of data[0][0]: 5
+Enter value of data[0][1]: 6
+Enter value of data[0][2]: 1
+Enter value of data[1][0]: 1
+Enter value of data[1][1]: 5
+Enter value of data[1][2]: 2
+Enter value of data[2][0]: 1
+Enter value of data[2][1]: 2
+Enter value of data[2][2]: 3
+Given Matrix is: 
+
+|     5     6     1 |
+|     1     5     2 |
+|     1     2     3 |
+
+Sorted Matrix is: 
+
+|     1     5     6 |
+|     1     2     5 |
+|     1     2     3 |
+
