@@ -1,6 +1,7 @@
 // Initialize a 2D array (5x5) with integer values and find the minimum and maximum element of the array.
 #include <stdio.h>
 #include <limits.h>
+#include <stdlib.h>
 
 int main() {
 	int data[5][5] = {{1,2,3,4,5},

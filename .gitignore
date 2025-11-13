@@ -1,2 +1,5 @@
 # Compiled files
-*.bin
+**/bin/
+
+# Secret Files
+.ssh
