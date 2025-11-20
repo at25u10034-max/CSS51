@@ -1,0 +1,11 @@
+Number of Books: 2
+Enter Title | Author | Price | Copies of book 0 separated by '|': ASD | ASD as | 123 | 12
+Enter Title | Author | Price | Copies of book 1 separated by '|': DFHG|asd asd| 1232 | 11
+
+
+ Book Name to look for: ASD 
+
+Book Title: ASD 
+Author:  ASD as 
+Price: 123Rs.
+Copies: 12

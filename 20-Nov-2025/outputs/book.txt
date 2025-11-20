@@ -1,0 +1,15 @@
+Enter Title | Author | Price of book 0 separated by '|': Hello World | Anurag Tewary | 50
+Enter Title | Author | Price of book 1 separated by '|': Hi World | Uday Shankar | 700
+Enter Title | Author | Price of book 2 separated by '|': Ciao | Me | 10000
+
+Book Title: Hello World 
+Author:  Anurag Tewary 
+Price: 50Rs.
+
+Book Title: Hi World 
+Author:  Uday Shankar 
+Price: 700Rs.
+
+Book Title: Ciao 
+Author:  Me 
+Price: 10000Rs.

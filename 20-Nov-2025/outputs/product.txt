@@ -1,0 +1,9 @@
+Number of Products: 2   
+Enter Name | Price | Quantity of product 0 separated by '|': Hello | 2 | 2
+Enter Name | Price | Quantity of product 1 separated by '|': Test | 1 | 5
+
+Most Expensive Product:
+	ID: 0
+	Name: Hello 
+	Price: 2
+	Quantity: 2
